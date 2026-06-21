@@ -1,0 +1,418 @@
+{
+  "uuid": "915b5567c71ccfa61de00d4f41477a00",
+  "path": "Offline/power_supply_7805",
+  "name": "power_supply_7805",
+  "content": "",
+  "created_at": "2026-06-10 11:20:52",
+  "updated_at": "2026-06-21 12:49:43",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "18f0b54bd66b1ee0af36300d36a0e4e4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "27a9456cdf3e4a94aeea058172c65f2d": 4,
+        "9a547dd47644415eb508dc62d5cb17dc": 2,
+        "8f4c0ea149b34b088496c6fef235b09a": 2,
+        "1f3f969d43b721a96216287181b958bc": 2,
+        "5bdaa4e53f9f4c32992441a88cd728de": 1,
+        "7842374fadf34a538cc217339102db5c": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uf",
+          2,
+          "CAP-TH_BD6.3-P2.50-D0.6-FD_RYHS16V1000UF6X15",
+          "C1,C3",
+          {
+            "Manufacturer Part": "RVT2A4R7M0607ZY",
+            "Manufacturer": "ChengTao(诚韬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46527562"
+          }
+        ],
+        [
+          "0.1uf",
+          2,
+          "RAD-0.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4-0805Y104M500",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "undefined"
+          }
+        ],
+        [
+          "SR540",
+          4,
+          "DO-27_BD5.8-L9.2-P15.10-D1.2-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "SR540",
+            "Manufacturer": "XUMAO(旭茂微)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22448098"
+          }
+        ],
+        [
+          "XY128V-A-5.0-2P",
+          2,
+          "CONN-TH_XY128V-A-5.0-2P",
+          "U1,U2",
+          {
+            "Manufacturer Part": "XY128V-A-5.0-2P",
+            "Manufacturer": "XINLAIYA(新莱亚)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557663"
+          }
+        ],
+        [
+          "K7805-500_C713220",
+          1,
+          "TO-220_L10.2-W4.6-P2.54_LR7805",
+          "U3",
+          {
+            "Manufacturer Part": "K7805-500",
+            "Manufacturer": "rlt",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713220"
+          }
+        ],
+        [
+          "XSD1226-005-21",
+          1,
+          "HEATSINK-TH_L15.5-W10.5-XSD1226-005",
+          "U4",
+          {
+            "Manufacturer Part": "XSD1226-005-21",
+            "Manufacturer": "XSD(鑫顺达)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C54320987"
+          }
+        ]
+      ],
+      "updateTime": 1781167233,
+      "createTime": 1781070652,
+      "histories": [],
+      "created_at": "2026-06-10 11:20:52",
+      "updated_at": "2026-06-11 14:10:33"
+    },
+    {
+      "uuid": "6c11a58e632382729d4a3bc0f17c7ed6",
+      "puuid": "915b5567c71ccfa61de00d4f41477a00",
+      "title": "PCB_pw 1",
+      "filename": "PCB_pw 1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "c51d049dcd84432f82b9861cd47646bb": 2,
+        "f6a3be63a93f4fffa57232b0ad0f86dc": 2,
+        "fd7b48787a434f65ac937d7024de4f7f": 4,
+        "ff2d459eca364dac9bec1b0ea59e8704": 2,
+        "2469795469594920b148c2fc43b14fd1": 1,
+        "12e8cc1080024b1cb3bc7992af2dbafd": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uf",
+          2,
+          "CAP-TH_BD6.3-P2.50-D0.6-FD_RYHS16V1000UF6X15",
+          "C1,C3",
+          {
+            "Manufacturer Part": "RVT2A4R7M0607ZY",
+            "Manufacturer": "ChengTao(诚韬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46527562"
+          }
+        ],
+        [
+          "0.1uf",
+          2,
+          "RAD-0.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4-0805Y104M500",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "undefined"
+          }
+        ],
+        [
+          "SR540",
+          4,
+          "DO-27_BD5.8-L9.2-P15.10-D1.2-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "SR540",
+            "Manufacturer": "XUMAO(旭茂微)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22448098"
+          }
+        ],
+        [
+          "XY128V-A-5.0-2P",
+          2,
+          "CONN-TH_XY128V-A-5.0-2P",
+          "U1,U2",
+          {
+            "Manufacturer Part": "XY128V-A-5.0-2P",
+            "Manufacturer": "XINLAIYA(新莱亚)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557663"
+          }
+        ],
+        [
+          "K7805-500_C713220",
+          1,
+          "PWRM-TH_K7805M-1000",
+          "U3",
+          {
+            "Manufacturer Part": "K7805-500",
+            "Manufacturer": "rlt",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713220"
+          }
+        ]
+      ],
+      "updateTime": 1781164962,
+      "createTime": 1781085595,
+      "histories": [],
+      "created_at": "2026-06-10 15:29:55",
+      "updated_at": "2026-06-11 13:32:42"
+    },
+    {
+      "uuid": "c0ef4161fa34d2bc23262629b8a99db0",
+      "puuid": "915b5567c71ccfa61de00d4f41477a00",
+      "title": "PCB_pw 2",
+      "filename": "PCB_pw 2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f6a3be63a93f4fffa57232b0ad0f86dc": 2,
+        "c51d049dcd84432f82b9861cd47646bb": 2,
+        "fd7b48787a434f65ac937d7024de4f7f": 4,
+        "ff2d459eca364dac9bec1b0ea59e8704": 2,
+        "12e8cc1080024b1cb3bc7992af2dbafd": 1,
+        "2469795469594920b148c2fc43b14fd1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uf",
+          2,
+          "CAP-TH_BD6.3-P2.50-D0.6-FD_RYHS16V1000UF6X15",
+          "C1,C3",
+          {
+            "Manufacturer Part": "RVT2A4R7M0607ZY",
+            "Manufacturer": "ChengTao(诚韬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46527562"
+          }
+        ],
+        [
+          "0.1uf",
+          2,
+          "RAD-0.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4-0805Y104M500",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "undefined"
+          }
+        ],
+        [
+          "SR540",
+          4,
+          "DO-27_BD5.8-L9.2-P15.10-D1.2-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "SR540",
+            "Manufacturer": "XUMAO(旭茂微)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22448098"
+          }
+        ],
+        [
+          "XY128V-A-5.0-2P",
+          2,
+          "CONN-TH_XY128V-A-5.0-2P",
+          "U1,U2",
+          {
+            "Manufacturer Part": "XY128V-A-5.0-2P",
+            "Manufacturer": "XINLAIYA(新莱亚)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557663"
+          }
+        ],
+        [
+          "K7805-500_C713220",
+          1,
+          "TO-220_L10.2-W4.6-P2.54_LR7805",
+          "U3",
+          {
+            "Manufacturer Part": "K7805-500",
+            "Manufacturer": "rlt",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713220"
+          }
+        ],
+        [
+          "XSD1226-005-21",
+          1,
+          "HEATSINK-TH_L15.5-W10.5-XSD1226-005",
+          "U4",
+          {
+            "Manufacturer Part": "XSD1226-005-21",
+            "Manufacturer": "XSD(鑫顺达)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C54320987"
+          }
+        ]
+      ],
+      "updateTime": 1781172957,
+      "createTime": 1781165317,
+      "histories": [],
+      "created_at": "2026-06-11 13:38:37",
+      "updated_at": "2026-06-11 15:45:57"
+    },
+    {
+      "uuid": "f2f342149d14aaca8f10f135634a27e4",
+      "puuid": "915b5567c71ccfa61de00d4f41477a00",
+      "title": "PCB_pw 3",
+      "filename": "PCB_pw 3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f6a3be63a93f4fffa57232b0ad0f86dc": 2,
+        "c51d049dcd84432f82b9861cd47646bb": 2,
+        "fd7b48787a434f65ac937d7024de4f7f": 4,
+        "ff2d459eca364dac9bec1b0ea59e8704": 2,
+        "12e8cc1080024b1cb3bc7992af2dbafd": 1,
+        "2469795469594920b148c2fc43b14fd1": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uf",
+          2,
+          "CAP-TH_BD6.3-P2.50-D0.6-FD_RYHS16V1000UF6X15",
+          "C1,C3",
+          {
+            "Manufacturer Part": "RVT2A4R7M0607ZY",
+            "Manufacturer": "ChengTao(诚韬)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C46527562"
+          }
+        ],
+        [
+          "0.1uf",
+          2,
+          "RAD-0.2",
+          "C2,C4",
+          {
+            "Manufacturer Part": "CT4-0805Y104M500",
+            "Manufacturer": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "undefined"
+          }
+        ],
+        [
+          "SR540",
+          4,
+          "DO-27_BD5.8-L9.2-P15.10-D1.2-RD",
+          "D5,D6,D7,D8",
+          {
+            "Manufacturer Part": "SR540",
+            "Manufacturer": "XUMAO(旭茂微)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C22448098"
+          }
+        ],
+        [
+          "XY128V-A-5.0-2P",
+          2,
+          "CONN-TH_XY128V-A-5.0-2P",
+          "U1,U2",
+          {
+            "Manufacturer Part": "XY128V-A-5.0-2P",
+            "Manufacturer": "XINLAIYA(新莱亚)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C557663"
+          }
+        ],
+        [
+          "K7805-500_C713220",
+          1,
+          "TO-220_L10.2-W4.6-P2.54_LR7805",
+          "U3",
+          {
+            "Manufacturer Part": "K7805-500",
+            "Manufacturer": "rlt",
+            "Supplier": "LCSC",
+            "Supplier Part": "C713220"
+          }
+        ],
+        [
+          "XSD1226-005-21",
+          1,
+          "HEATSINK-TH_L15.5-W10.5-XSD1226-005",
+          "U4",
+          {
+            "Manufacturer Part": "XSD1226-005-21",
+            "Manufacturer": "XSD(鑫顺达)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C54320987"
+          }
+        ]
+      ],
+      "updateTime": 1781173039,
+      "createTime": 1781169033,
+      "histories": [],
+      "created_at": "2026-06-11 14:40:33",
+      "updated_at": "2026-06-11 15:47:19"
+    }
+  ],
+  "sort": [],
+  "title": "power_supply_7805",
+  "foldername": "power_supply_7805",
+  "schfilename": "power_supply_7805.json",
+  "schfilemtime": 1781167233241
+}
